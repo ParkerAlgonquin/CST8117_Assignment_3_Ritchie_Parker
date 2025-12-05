@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="065f7eee-dac1-47c0-8336-6ddd2fd03e2b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 1/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CST8117_Assignment_2_Ritchie_Parker/about-us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CST8117_Assignment_2_Ritchie_Parker/assets/products.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CST8117_Assignment_2_Ritchie_Parker/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CST8117_Assignment_2_Ritchie_Parker/contact-us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CST8117_Assignment_2_Ritchie_Parker/privacy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CST8117_Assignment_2_Ritchie_Parker/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CST8117_Assignment_2_Ritchie_Parker/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CST8117_Assignment_2_Ritchie_Parker/terms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../public/background.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../public/fonts/JetBrainsMono-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../public/fonts/JetBrainsSans-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../public/javascript.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../public/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../public/technologies.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../public/webstorm-icon-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../public/webstorm-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/important_keyword.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="33d4wVlbazJtIhABrOCwuRWz5zK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.products.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/malth/Documents/School Assignments/Semester 1/Cross Platform/CST8117_Assignment_3_Ritchie_Parker&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.27397.92" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="065f7eee-dac1-47c0-8336-6ddd2fd03e2b" name="Changes" comment="" />
+      <created>1759633856947</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1759633856947</updated>
+      <workItem from="1759633858035" duration="110000" />
+      <workItem from="1760678030076" duration="10000" />
+      <workItem from="1761530895130" duration="34204000" />
+      <workItem from="1761578161872" duration="2562000" />
+      <workItem from="1761690572884" duration="3000" />
+      <workItem from="1761693289819" duration="565000" />
+      <workItem from="1761887982104" duration="15000" />
+      <workItem from="1762035207071" duration="1317000" />
+      <workItem from="1762225021253" duration="60000" />
+      <workItem from="1762514643760" duration="364000" />
+      <workItem from="1762565926540" duration="613000" />
+      <workItem from="1763263919531" duration="41624000" />
+      <workItem from="1763403087127" duration="497000" />
+      <workItem from="1763438349400" duration="276000" />
+      <workItem from="1763438686953" duration="1580000" />
+      <workItem from="1763442005798" duration="270000" />
+      <workItem from="1763587486450" duration="254000" />
+      <workItem from="1763619593028" duration="68000" />
+      <workItem from="1763619713564" duration="87000" />
+      <workItem from="1763744380574" duration="4000" />
+      <workItem from="1763748445287" duration="231000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

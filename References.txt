@@ -1,0 +1,98 @@
+New Assignment 3 References
+
+
+Software
+
+
+Google. (2025). Google Chrome (Version 140.0.7339.186) [Computer Software]. https://www.google.com/intl/en_ca/chrome/
+
+Ho, Don. (2025). Notepad++ (Version 8.8.5;) [Computer Software]. https://notepad-plus-plus.org/
+
+JetBrains (2025). WebStorm (Version 2025.2.4) [Computer Software]. https://www.jetbrains.com/webstorm/
+
+
+Coding Sources
+
+
+User: PranchalKatiyar. (2025, September 8). How to validate email address using regexp in JavaScript?. GeeksforGeeks. https://www.geeksforgeeks.org/javascript/how-to-validate-email-address-using-regexp-in-javascript/ 
+
+User: Allen Liu. (2009, July 30). JavaScript date object’s month index begins with 0. Stack Overflow. https://stackoverflow.com/questions/1208519/javascript-date-objects-month-index-begins-with-0 
+
+User: T.J. Crowder. (2020, March 19). Is there a way to prevent the date object in JS from overflowing days/months?. Stack Overflow. https://stackoverflow.com/questions/60759006/is-there-a-way-to-prevent-the-date-object-in-js-from-overflowing-days-months 
+
+User: Oliver Tappin. (2012, December 12). CSS media queries for screen sizes. Stack Overflow. https://stackoverflow.com/questions/13847755/css-media-queries-for-screen-sizes 
+
+Regular expressions. MDN. (2025, July 21). https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions
+
+Date. MDN. (2025a, July 30). https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date 
+
+MDN Blog RSS. (2025, November 7). https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/meta/name/viewport 
+
+W3schools.com. How To Create a Mobile Navigation Menu. (n.d.). https://www.w3schools.com/howto/howto_js_mobile_navbar.asp 
+
+
+Old Assignment 2 References
+
+
+Coding Sources
+
+
+CSS display property. W3schools. (n.d.). https://www.w3schools.com/cssref/pr_class_display.php 
+
+How TO - Product Card. W3schools. (n.d.). http://w3schools.com/howto/howto_css_product_card.asp
+
+How TO - Search Bar. W3schools. (n.d.). https://www.w3schools.com/howto/howto_css_searchbar.asp
+
+HTML <address> Tag. W3schools. (n.d.). https://www.w3schools.com/tags/tag_address.asp
+
+How To Create a Hoverable Dropdown Menu. W3schools. (n.d.). https://www.w3schools.com/howto/howto_css_dropdown.asp 
+
+
+
+Image Sources
+
+
+[Untitled online image of a black gamecube]. (n.d.). Power Up Gaming. https://www.powerupgaming.ca/products/gc-sys6
+
+[Untitled online image of PokemonXD Gamecube cover art]. (n.d.). Price Charting. https://www.pricecharting.com/game/gamecube/pokemon-xd-gale-of-darkness
+
+[Untitled online image of Zelda Four Sword Adventure Gamecube cover art]. (n.d.). Price Charting. http://pricecharting.com/game/gamecube/zelda-four-swords-adventures
+
+[Untitled online image of Ultimate Muscle: Legends vs. New Generation]. (n.d.). Price Charting. https://www.pricecharting.com/game/gamecube/ultimate-muscle-legends-vs-new-generation
+
+[Untitled online image of Fire Emblem Gamecube cover art]. (n.d.). The Cover Project. https://www.thecoverproject.net/view.php?game_id=1501
+
+[Untitled online image of The Legend of Zelda: Twilight Princess]. (n.d.) The Cover Project. https://www.thecoverproject.net/view.php?cover_id=2351
+
+[Untitled online image of The Simpsons: Hit and Run]. (n.d.) The Cover Project. https://www.thecoverproject.net/view.php?game_id=2631
+
+[Untitled online image of Metal Gear Solid: The Twin Snakes]. (n.d.) The Cover Project. https://www.thecoverproject.net/view.php?game_id=1283
+
+[Untitled online image of Kirby Air Ride]. (n.d.) The Cover Project. https://www.thecoverproject.net/view.php?game_id=1511
+
+[Untitled online image of Samurai Jack Shadow of Aku]. (2025, August 22) eBay. https://www.ebay.ca/itm/296872717483
+
+[Shopping cart PNG]. (n.d.) pngimg.com. https://pngimg.com/image/28867
+
+[Trash Bin Icon SVG Vector]. (n.d.) UXWing. https://uxwing.com/trash-bin-icon/
+
+
+
+Written Sources
+
+
+Wikimedia Foundation. (2025, September 26). GameCube. Wikipedia. https://en.wikipedia.org/wiki/GameCube 
+
+Wikimedia Foundation. (2025, October 22). Fire emblem: Path of radiance. Wikipedia. https://en.wikipedia.org/wiki/Fire_Emblem:_Path_of_Radiance 
+
+DKOLDIES legal statement terms and conditions. DKOldies. (2025, September 16). https://www.dkoldies.com/terms-and-conditions/ 
+
+Privacy policy & our security policies. DKOldies. (2021, August 6). https://www.dkoldies.com/privacy/ 
+
+Prices for video games, cards, Comics & More. PriceCharting. (n.d.). https://www.pricecharting.com/ 
+
+
+
+
+
+

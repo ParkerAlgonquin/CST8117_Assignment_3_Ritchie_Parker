@@ -1,0 +1,192 @@
+<!--
+  -- Student Name: Parker Ritchie
+  -- Student ID: ritc0067 (student # 040588630)
+  -- Course: CST8117 - Cross-Platform Web Design
+  -- Semester: Fall 2025
+  -- Assignment: Assignment 3
+  -- Date Submitted: Nov 17th 2025
+  -->
+<!DOCTYPE html>
+<html lang="en">
+    <!-- start of head section -->
+    <head>
+        <title>Parker's Gamecube Store</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content= "gamecube, video games, store, used games, game cube">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="assets/main.css">
+        <link rel="stylesheet" href="assets/products.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <!-- end of head section, start of body and header sections -->
+    <body id = "bodygrad">
+        <header class="header">
+            <!-- start of navigation section at top of page -->
+            <section>
+                <a id="grid-item1" href="index.html" class="logo">Parker's Gamecube Store</a>
+                <nav id="grid-item2">
+                    <a href="index.html">Home</a>
+                    <a href="products.html" id="current">Products</a>
+                    <a href="cart.html">Cart</a>
+                    <a href="about-us.html">About Us</a>
+                    <a href="contact-us.html">Contact Us</a>
+                    <a href="terms.html">Terms & Conditions</a>
+                    <a href="privacy.html">Privacy Policy</a>
+                </nav>
+                <!-- end of navigation, start of contact info/social media link/location -->
+                <div id="grid-item3">
+                    <address>
+                        Call Us: <a href="#">613-555-1234</a><br>
+                        Follow Us: <a href="#">@parkergamecube</a><br>
+                        Come See Us: <a href="#">Maps Link</a><br>
+                    </address>
+                </div>
+                <div id="grid-item4">
+                    <!-- added search bar with button -->
+                    <input type="text" placeholder="Search..">
+                    <button type="submit">Submit</button>
+                </div>
+            </section>
+            <a href = "#topofcontent"> Jump to Top of Content</a>
+        </header>
+        <!-- end of header, start of main section -->
+        <!-- Drop down menus to control product results -->
+        <section class="dropdowns">
+            <div class="dropdown">
+                <button class="dropbutton">Sort Products By:</button>
+                <div class="dropdown-list">
+                    <a href="#">Price Asc</a>
+                    <a href="#">Price Desc</a>
+                    <a href="#">Name Asc</a>
+                    <a href="#">Name Desc</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbutton">Search By Keyword:</button>
+                <div class="dropdown-list">
+                    <a href="#">Games</a>
+                    <a href="#">Consoles</a>
+                    <a href="#">Controllers</a>
+                    <a href="#">Accessories</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbutton">Set Price Range:</button>
+                <div class="dropdown-list">
+                    <a href="#">Under $10</a>
+                    <a href="#">Under $25</a>
+                    <a href="#">Under $50</a>
+                    <a href="#">Under $100</a>
+                </div>
+            </div>
+        </section>
+        <!-- All product cards -->
+        <section class="products" id = topofcontent>
+            <!-- <a href="product.html"> this broke the visuals of my product so im coding it out until I have time to make it work better -->
+                <div class="product">
+                    <img src="images/fireemblem.jpg" alt="Cover art of Fire Emblem: Path of Radiance" title="Fire Emblem: Path of Radiance">
+                    <h3>Fire Emblem: Path of Radiance</h3><br>
+                    <p> Price $254.82</p>
+                </div>
+            <!-- </a> -->
+            <div class="product">
+                <img src="images/pokemonxd.jpg" alt="Cover art of Pokemon XD: Gale of Darkness" title="Pokemon XD: Gale of Darkness">
+                <h3>Pokemon XD: Gale of Darkness</h3><br>
+                <p> Price $289.61</p>
+            </div>
+            <div class="product">
+                <img src="images/zeldafoursword.jpg" alt="Cover art of Legend of Zelda: Four Sword Adventure"
+                     title="Legend of Zelda: Four Sword Adventure">
+                <h3>Legend of Zelda: Four Sword Adventure</h3><br>
+                <p> Price $101.73</p>
+            </div>
+            <div class="product">
+                <img src="images/twilightprincess.jpg" alt="Cover art of The Legend of Zelda: Twilight Princess"
+                     title="The Legend of Zelda: Twilight Princess">
+                <h3>The Legend of Zelda: Twilight Princess</h3><br>
+                <p> Price $193.12</p>
+            </div>
+            <div class="product">
+                <img src="images/hitandrun.jpg" alt="Cover art of The Simpsons Hit and Run"
+                     title="The Simpsons Hit and Run">
+                <h3>The Simpsons Hit and Run</h3><br>
+                <p> Price $104.86</p>
+            </div>
+            <div class="product">
+                <img src="images/kirbyairride.jpg" alt="Cover art of Kirby Air Ride"
+                     title="Kirby Air Ride">
+                <h3>Kirby Air Ride</h3><br>
+                <p> Price $122.41</p>
+            </div>
+            <div class="product">
+                <img src="images/samuraijack.jpg" alt="Cover art of Samurai Jack Shadow of Aku"
+                     title="Samurai Jack Shadow of Aku">
+                <h3>Samurai Jack Shadow of Aku</h3><br>
+                <p> Price $192.42</p>
+            </div>
+            <div class="product">
+                <img src="images/twinsnakes.jpg" alt="Cover art of Metal Gear Solid Twin Snakes"
+                     title="Metal Gear Solid Twin Snakes">
+                <h3>Metal Gear Solid Twin Snakes</h3><br>
+                <p> Price $110.09</p>
+            </div>
+            <div class="product">
+                <img src="images/ultimatemuscle.jpg" alt="Cover art of Ultimate Muscle: Legends vs. New Generation"
+                     title="Ultimate Muscle: Legends vs. New Generation">
+                <h3>Ultimate Muscle: Legends vs. New Generation</h3><br>
+                <p> Price $183.37</p>
+            </div>
+        </section>
+        <!-- Page number links to scroll product pages -->
+        <section class="page-selection">
+            <nav>
+                <a href="">Prev</a>
+                <a href="">1</a>
+                <a href="">2</a>
+                <a href="">3</a>
+                <a href="">4</a>
+                <a href="">5</a>
+                <a href="">Next</a>
+            </nav>
+        </section>
+        <!-- end of main section, start of footer -->
+        <footer>
+            <!-- list of non product related pages -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="terms.html">Terms & Conditions</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+            </ul>
+            <p id="copyright">
+                Copyright &copy 2025 by Parker's Gamecube Store. All Rights Reserved.
+            </p>
+            <div class="hamburgermenu"> <!-- section for the searchbar and hamburgermenu at the bottom of the phone -->
+                <div id="searchbar"> <!-- call to action search bar at bottom of screen -->
+                    <input id="bar" type="text" placeholder="Search.."><!-- bottom of screen search bar -->
+                    <button id="button" type="submit">Submit</button>
+                </div>
+                <!-- /***************************************************************************************
+                    *    Title: Mobile Navigation Bar
+                    *    Author: W3schools
+                    *    Date: n.d.
+                    *    Code version: html 5
+                    *    Availability: https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+                    *
+                    ***************************************************************************************/ -->
+                <div id="burgerlinks">
+                    <a href="index.html">Home</a>
+                    <a href="products.html">Products</a>
+                    <a href="cart.html">Cart</a>
+                    <a href="about-us.html">About Us</a>
+                    <a href="contact-us.html">Contact Us</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()"><!-- javascript:void(0); cause the href to open the icon link but not refresh the page -->
+                    <i class="fa fa-bars"></i> <!-- hamburgermenu icon from font awesome -->
+                </a>
+            </div>
+        </footer>
+        <script src="assets/main.js"></script>
+    </body>
+</html>

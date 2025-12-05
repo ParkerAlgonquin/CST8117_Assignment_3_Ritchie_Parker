@@ -1,0 +1,157 @@
+<!--
+  -- Student Name: Parker Ritchie
+  -- Student ID: ritc0067 (student # 040588630)
+  -- Course: CST8117 - Cross-Platform Web Design
+  -- Semester: Fall 2025
+  -- Assignment: Assignment 3
+  -- Date Submitted: Nov 17th 2025
+  -->
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+    <!-- start of head section -->
+    <head>
+        <title>Parker's Gamecube Store</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content= "gamecube, video games, store, used games, game cube">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="assets/main.css">
+        <link rel="stylesheet" href="assets/products.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <!-- end of head section, start of body and header sections -->
+    <body id = "bodygrad">
+        <header class="header">
+            <!-- start of navigation section at top of page -->
+            <section>
+                <a id="grid-item1" href="index.html" class="logo">Parker's Gamecube Store</a>
+                <nav id="grid-item2">
+                    <a href="index.html" id="current">Home</a>
+                    <a href="products.html">Products</a>
+                    <a href="cart.html">Cart</a>
+                    <a href="about-us.html">About Us</a>
+                    <a href="contact-us.html">Contact Us</a>
+                    <a href="terms.html">Terms & Conditions</a>
+                    <a href="privacy.html">Privacy Policy</a>
+                </nav>
+                <!-- end of navigation, start of contact info/social media link/location -->
+                <div id="grid-item3">
+                    <address>
+                        Call Us: <a href="#">613-555-1234</a><br>
+                        Follow Us: <a href="#">@parkergamecube</a><br>
+                        Come See Us: <a href="#">Maps Link</a><br>
+                    </address>
+                </div>
+                <div id="grid-item4">
+                    <!-- added search bar with button -->
+                    <input type="text" placeholder="Search..">
+                    <button type="submit">Submit</button>
+                </div>
+            </section>
+            <a href = "#topofcontent"> Jump to Top of Content</a>
+        </header>
+        <!-- end of header, start of main section -->
+        <section class="main-section">
+            <!-- added image of gamecube console with caption -->
+            <figure>
+                <img src="images/gamecubeset.jpg" alt="GameCube Info">
+                <figcaption>Black GameCube Console with Controller</figcaption>
+            </figure>
+            <hgroup>
+                <h1 id = "topofcontent">Gamecube Info</h1>
+            </hgroup>
+            <!-- intro info about gamecube from wikipedia (referenced at bottom of webpage with link and in reference document) -->
+            <p>
+                "The Nintendo GameCube is a home video game console developed and marketed by Nintendo. It was released in
+                Japan on September 14, 2001, in North America on November 18, 2001, in Europe on May 3, 2002, in Australia
+                on May 17, 2002, and in South Korea on December 14, 2002. It is the successor to the Nintendo 64. As a sixth-generation console,
+                the GameCube primarily competed with Sony's PlayStation 2, Sega's Dreamcast and Microsoft's Xbox."[1]
+            </p>
+            <p>
+                "Nintendo began developing the GameCube in 1998 after entering a partnership with ArtX to design a graphics processing unit.
+                The console was formally announced under the codename "Dolphin" the following year, and was released in 2001 as the GameCube.
+                It is based on PowerPC. It is Nintendo's first console to use its own optical discs instead of ROM cartridges, supplemented by
+                writable memory cards for saved games. Unlike its competitors, it is solely focused on gaming and does not play mass media like
+                DVD or CD. The console supports limited online gaming for a few games via a GameCube broadband or modem adapter and can connect
+                to a Game Boy Advance with a link cable for exclusive in-game features using the handheld as a second screen and controller. The
+                GameCube supports e-Reader cards to unlock special features in a few games. The Game Boy Player add-on runs Game Boy, Game Boy Color
+                and Game Boy Advance cartridge games."[1]
+            </p>
+            <!-- start of featured products, shows a few items with names and prices -->
+            <!-- Product cards use the Gestalt design theory of Similarity, by using the same product card for each product,
+             the mind discovers the patterns and easily groups the sets of information tied to each product. The area
+             below each product image is also made to be white, a color not used in many other places on the site.
+             This makes finding the next product on the page that much easier as the mind begins to associate the
+             white block with product information -->
+            <hgroup>
+                <h1 id = featured-text>Featured Products</h1>
+            </hgroup>
+            <p>We use publicly available data to price our games. Based on current market rate, number of units available, and last sold listings we price our games as fairly as we can.</p>
+            <p>Visit our <a href="https://www.pricecharting.com" target="_blank">price reference</a> to see the data we work with.</p>
+            <section class = products>
+                <!-- <a href="product.html"> this broke the visuals of my product so im coding it out until I have time to make it work better -->
+                    <div class="product">
+                        <img src="images/fireemblem.jpg" alt="Cover art of Fire Emblem: Path of Radiance"
+                            title="Fire Emblem: Path of Radiance">
+                        <h3>Fire Emblem: Path of Radiance</h3><br>
+                        <p> Price $254.82</p>
+                    </div>
+                <!-- </a> -->
+                <div class="product">
+                    <img src="images/pokemonxd.jpg" alt="Cover art of Pokemon XD: Gale of Darkness"
+                         title="Pokemon XD: Gale of Darkness">
+                    <h3>Pokemon XD: Gale of Darkness</h3><br>
+                    <p> Price $289.61</p>
+                </div>
+                <div class="product">
+                    <img src="images/zeldafoursword.jpg" alt="Cover art of Legend of Zelda: Four Sword Adventure"
+                         title="Legend of Zelda: Four Sword Adventure">
+                    <h3>Legend of Zelda: Four Sword Adventure</h3><br>
+                    <p> Price $101.73</p>
+                </div>
+            </section>
+            <p>
+                [1] General information paragraphs about the Nintendo Gamecube are quoted from the
+                <a href="https://en.wikipedia.org/wiki/GameCube" target="_blank">Nintendo GameCube Wikipedia Page</a>.
+            </p>
+        </section>
+        <!-- end of main section, start of footer -->
+        <footer>
+            <!-- list of non product related pages -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="terms.html">Terms & Conditions</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+            </ul>
+            <p id="copyright">
+                Copyright &copy 2025 by Parker's Gamecube Store. All Rights Reserved.
+            </p>
+            <div class="hamburgermenu"> <!-- section for the searchbar and hamburgermenu at the bottom of the phone -->
+                <div id="searchbar"> <!-- call to action search bar at bottom of screen -->
+                    <input id="bar" type="text" placeholder="Search.."><!-- bottom of screen search bar -->
+                    <button id="button" type="submit">Submit</button>
+                </div>
+                    <!-- /***************************************************************************************
+                    *    Title: Mobile Navigation Bar
+                    *    Author: W3schools
+                    *    Date: n.d.
+                    *    Code version: html 5
+                    *    Availability: https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+                    *
+                    ***************************************************************************************/ -->
+                <div id="burgerlinks">
+                    <a href="index.html">Home</a>
+                    <a href="products.html">Products</a>
+                    <a href="cart.html">Cart</a>
+                    <a href="about-us.html">About Us</a>
+                    <a href="contact-us.html">Contact Us</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()"><!-- javascript:void(0); cause the href to open the icon link but not refresh the page -->
+                    <i class="fa fa-bars"></i> <!-- hamburgermenu icon from font awesome -->
+                </a>
+            </div>
+        </footer>
+        <script src="assets/main.js"></script>
+    </body>
+</html>

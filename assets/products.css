@@ -1,0 +1,174 @@
+/*
+ * Student Name: Parker Ritchie
+ * Student ID: ritc0067 (student # 040588630)
+ * Course: CST8117 - Cross-Platform Web Design
+ * Semester: Fall 2025
+ * Assignment: Assignment 3
+ * Date Submitted: Nov 17th 2025
+ */
+
+/* media query for phones in landscape mode */
+@media screen and (max-width: 1000px) and (orientation: landscape) {
+    /* Start of class for the product style */
+    .products{
+        flex-basis: 50%;
+    }
+    .product{
+        margin: 5%;
+        width: 35%;
+        height: 50%;
+    }
+    .product h3{
+        margin-bottom: 20%;
+        font-size: 1.2rem;
+        clear:both;
+    }
+    .product:hover{
+
+    }
+    .product img{
+        width: 100%;
+        height: 70%;
+    }
+    .product p{
+        line-height: 1;
+    }
+    .product-page-image{
+        margin-right: 0;
+        width: 90%;
+    }
+    /* style rules for add to card button */
+    .add-to-cart{
+        width:50%;
+    }
+}
+/* media query for phones in portrait mode */
+@media screen and (max-width: 600px) and (orientation: portrait) {
+    /* Start of class for the product style */
+    .products{
+        flex-basis: 50%;
+    }
+    .product{
+        margin: 5%;
+        width: 35%;
+        height: 50%;
+    }
+    .product h3{
+        margin-bottom: 20%;
+        font-size: 1.2rem;
+        clear:both;
+    }
+    .product:hover{
+
+    }
+    .product img{
+        width: 100%;
+        height: 70%;
+    }
+    .product p{
+        line-height: 1;
+    }
+    .product-page-image{
+        margin-right: 0;
+        width: 90%;
+    }
+    /* style rules for add to card button */
+    .add-to-cart{
+        width:50%;
+    }
+
+}
+/* media query for anything bigger than a phone */
+@media screen and (min-width: 600px){
+    /* Start of class for the product style */
+    .product{
+        margin: 70px;
+        width: 300px;
+        height: 505px;
+    }
+    .product h3{
+        font-size: 1.3rem;
+        clear:both;
+    }
+    .product:hover{
+
+    }
+    .product img{
+        width: 100%;
+        height: 78%;
+    }
+
+    .product-page-image{
+        margin-right: 10%;
+        margin-left: 5%;
+        width: 25%;
+    }
+    /* style rules for add to card button */
+    .add-to-cart{
+        width:200px;
+    }
+
+
+}
+/* Start of class for the product style */
+.products{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.product{
+    position: relative;
+    background-color: white;
+    border: 3px solid #1DE2B1;
+    text-align: center;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.7);
+}
+.product p{
+    font-size: 1rem;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #1DE2B1;
+    border: 3px solid #1DE2B1;
+}
+.product-page-image{
+    float: right;
+}
+.add-to-cart{
+    text-align: center;
+    font-size: 1.5rem;
+    color: red;
+    background-color: white;
+    padding-bottom: 5px;
+}
+.add-to-cart img{
+    width: 25%;
+    padding-top: 10px;
+}
+.add-to-cart:hover{
+    background-color: darkgrey;
+}
+/* style rules for the cart */
+.cart{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 10px 5px;
+    place-items: center;
+}
+.cart .product-img{
+    height: 100px;
+}
+.cart .remove-img{
+    height: 50px;
+}
+.cart .remove-img:hover{
+    background-color: #1DE2B1;
+}
+.cart .totals{
+    grid-column-start: 5;
+}

@@ -1,0 +1,330 @@
+/*
+ * Student Name: Parker Ritchie
+ * Student ID: ritc0067 (student # 040588630)
+ * Course: CST8117 - Cross-Platform Web Design
+ * Semester: Fall 2025
+ * Assignment: Assignment 3
+ * Date Submitted: Nov 17th 2025
+ */
+
+/* The colour palette technique used on this webpage is triadic,
+the background is a gradient from 2 of the 3 colours and some
+elements are outlined by the third colour to provide separation */
+
+/* design principle of contrast has been added with the bottom call to action search bar and hamburger menu,
+ by making the bottom bar a dark grey the call to action search bar pops at the user, pushing them towards searching*/
+
+/* Media queries are used to load different style rules based on the set parameters */
+
+/* media query for phones in landscape mode, sized up to 1000px for new large phones */
+@media screen and (max-width: 1000px) and (orientation: landscape) {
+    /* Style rules for the image and caption in the main section */
+    .main-section figure{
+        max-width: 100%;
+    }
+    /***************************************************************************************
+    *    Title: Mobile Navigation Bar
+    *    Author: W3schools
+    *    Date: n.d.
+    *    Code version: CSS3
+    *    Availability: https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+    *
+    ***************************************************************************************/
+    .hamburgermenu {
+        z-index: 2;
+        background-color: #1c1c1c;
+        position: fixed;
+        right: 0;
+        bottom: 47px;
+    }
+    .hamburgermenu #burgerlinks {
+        display: none;
+    }
+    .hamburgermenu a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    .hamburgermenu a.icon {
+        background: black;
+        display: block;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+    }
+    #grid-item4{
+        display: none;
+    }
+    #searchbar{
+        display: flex;
+        justify-content: left;
+        height: 48px;
+        background-color: #1c1c1c;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+    #bar{
+        margin: 10px;
+        margin-right:0;
+    }
+    #button{
+        margin: 10px;
+        margin-left:0;
+    }
+    #copyright{ /* move the bottom of page up to allow room for fixed search and hamburger menu bar */
+        margin-bottom:55px;
+    }
+}
+/* media query for phones in portrait mode */
+@media screen and (max-width: 600px) and (orientation: portrait) {
+    /* Style rules for the image and caption in the main section */
+    .main-section figure{
+        max-width: 100%;
+    }
+    /***************************************************************************************
+    *    Title: Mobile Navigation Bar
+    *    Author: W3schools
+    *    Date: n.d.
+    *    Code version: CSS3
+    *    Availability: https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+    *
+    ***************************************************************************************/
+    .hamburgermenu {
+        z-index: 2;
+        background-color: #1c1c1c;
+        position: fixed;
+        right: 0;
+        bottom: 47px;
+    }
+    .hamburgermenu #burgerlinks { /* hamburger menu starts hidden and is switched back and forth when the button is clicked */
+        display: none;
+    }
+    .hamburgermenu a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    .hamburgermenu a.icon {
+        background: black;
+        display: block;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+    }
+    #grid-item4{ /* hide grid item 4 on phone since it's a search bar and we have added a call to action search bar to the bottom fo the screen */
+        display: none;
+    }
+    #searchbar{
+        display: flex;
+        justify-content: left;
+        height: 48px;
+        background-color: #1c1c1c;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+    #bar{
+        margin: 10px;
+        margin-right:0;
+    }
+    #button{
+        margin: 10px;
+        margin-left:0;
+    }
+    #copyright{ /* move the bottom of page up to allow room for fixed search and hamburger menu bar */
+        margin-bottom:55px;
+    }
+}
+/* media query for screen bigger than a portrait phone that uses a mouse */
+@media screen and (min-width: 600px) and (any-hover: hover) {
+
+    /* Style rules for the image and caption in the main section */
+    .main-section figure{
+        max-width: 30%;
+    }
+    .hamburgermenu {
+        display: none;
+    }
+    #grid-item4{
+        grid-column-start: 3;
+        align-self: center;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+/* Makes the entire background of the website a gradient */
+#bodygrad{
+    background-image: linear-gradient(to bottom, #E2B11D, #B11DE2);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Start of the class for the header style */
+.header{
+    padding: 22px;
+}
+.header section{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+/* Grid location for items in the header */
+#grid-item1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-self: center;
+}
+#grid-item2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-self: center;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+#grid-item3{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    align-self: center;
+}
+
+.header a{
+    color: #B11DE2;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+.header address{
+    color: black;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+.header a.logo{
+    font-size: 1.5rem;
+}
+/* makes clickable links in the header change colour when hovered */
+.header a:hover {
+    background-color: #1DE2B1;
+    color: black;
+}
+/* causes the current page link to have a border around it */
+#current {
+    color: #1DE2B1;
+}
+/* Make the search bar have a black border when selected */
+.input[type=text] {
+    border: 1px solid black;
+}
+/* Start of class style for the main section */
+.main-section {
+    padding: 30px;
+}
+.main-section p{
+    line-height: 2.0;
+    clear: left;
+    font-family: arial, sans-serif;
+}
+/* Style rules for the image and caption in the main section */
+.main-section figure{
+    float : right;
+    border: 3px solid #1DE2B1;
+    background-color: #1DE2B1;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.7);
+}
+.main-section figure img{
+    max-width: 100%;
+}
+.main-section figcaption{
+    font-family: "Lucida Console", monospace;
+    text-align: center;
+    background-color: #1DE2B1;
+    width: 100%;
+}
+/* Style rules for the dropdowns currently found on the products page */
+.dropdowns{
+    display: flex;
+    justify-content: space-around;
+}
+.dropdown{
+    display: inline-block;
+    position: relative;
+}
+.dropbutton{
+    background-color: #1DE2B1;
+    color: black;
+    padding: 15px;
+    font-size: 1.2rem;
+    border: none;
+}
+.dropdown-list{
+    background-color: #1DE2B1;
+    text-align: center;
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    z-index: 1;
+    box-shadow: 8px 8px 10px 2px rgba(0, 0, 0, 0.7);
+}
+.dropdown-list a{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-list{
+    display: block;
+}
+.dropdown .dropdown-list a:hover{
+    background-color: #159e7c;
+}
+#featured-text{
+    clear:both;
+}
+/* Style rules for contact us form placeholder */
+#contact-form{
+    height: 600px;
+    border: 4px solid #1DE2B1;
+}
+#contact-form h1{
+    display:flex;
+    justify-content: center;
+}
+/* Style rules for product page selection */
+.page-selection{
+    text-align: center;
+}
+.page-selection a{
+    line-height: 2.0;
+    color: #E2B11D;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+.page-selection a:hover {
+    background-color: #1DE2B1;
+    color: black;
+}
+/* Style rules for the footer section, so the text goes below the floating features above */
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    color: #E2B11D;
+}
+footer a{
+    color: #E2B11D;
+}
+footer a:hover {
+    color: #1DE2B1;
+}
+

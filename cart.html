@@ -1,0 +1,123 @@
+<!--
+  -- Student Name: Parker Ritchie
+  -- Student ID: ritc0067 (student # 040588630)
+  -- Course: CST8117 - Cross-Platform Web Design
+  -- Semester: Fall 2025
+  -- Assignment: Assignment 3
+  -- Date Submitted: Nov 17th 2025
+  -->
+<!DOCTYPE html>
+<html lang="en">
+    <!-- start of head section -->
+    <head>
+        <title>Parker's Gamecube Store</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content= "gamecube, video games, store, used games, game cube">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="assets/main.css">
+        <link rel="stylesheet" href="assets/products.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <!-- end of head section, start of body and header sections -->
+    <body id = "bodygrad">
+        <header class="header">
+            <!-- start of navigation section at top of page -->
+            <section>
+                <a id="grid-item1" href="index.html" class="logo">Parker's Gamecube Store</a>
+                <nav id="grid-item2">
+                    <a href="index.html">Home</a>
+                    <a href="products.html">Products</a>
+                    <a href="cart.html" id="current">Cart</a>
+                    <a href="about-us.html">About Us</a>
+                    <a href="contact-us.html">Contact Us</a>
+                    <a href="terms.html">Terms & Conditions</a>
+                    <a href="privacy.html">Privacy Policy</a>
+                </nav>
+                <!-- end of navigation, start of contact info/social media link/location -->
+                <div id="grid-item3">
+                    <address>
+                        Call Us: <a href="#">613-555-1234</a><br>
+                        Follow Us: <a href="#">@parkergamecube</a><br>
+                        Come See Us: <a href="#">Maps Link</a><br>
+                    </address>
+                </div>
+                <div id="grid-item4">
+                    <!-- added search bar with button -->
+                    <input type="text" placeholder="Search..">
+                    <button type="submit">Submit</button>
+                </div>
+            </section>
+            <a href = "#topofcontent"> Jump to Top of Content</a>
+        </header>
+        <!-- end of header, start of main section -->
+        <!-- start of grid used to display items in the cart and the totals -->
+        <section class="cart" id="topofcontent">
+            <h3>Picture</h3>
+            <h3>Name</h3>
+            <h3>Quantity</h3>
+            <h3>Price</h3>
+            <h3>Subtotal</h3>
+            <h3>Remove</h3>
+            <img class="product-img" src="images/fireemblem.jpg" alt="Cover art of Fire Emblem: Path of Radiance"
+                 title="Fire Emblem: Path of Radiance">
+            <p>Fire Emblem: Path of Radiance</p>
+            <p>1</p>
+            <p>$254.82</p>
+            <p>$254.82</p>
+            <img class="remove-img" src="images/trashbin.png" alt="Picture of a red trash bin" Title="Remove From Cart">
+            <img class="product-img" src="images/pokemonxd.jpg" alt="Cover art of Pokemon XD: Gale of Darkness"
+                 title="Pokemon XD: Gale of Darkness">
+            <p>Pokemon XD: Gale of Darkness</p>
+            <p>1</p>
+            <p>$289.61</p>
+            <p>$289.61</p>
+            <img class="remove-img"src="images/trashbin.png" alt="Picture of a red trash bin" Title="Remove From Cart">
+            <div class="totals">
+                <p>Pre-Tax Total: $544.43</p>
+                <p>Shipping: $19.99</p>
+                <p>Tax: $73.37</p>
+                <p>Total: $637.79</p>
+            </div>
+
+        </section>
+        <!-- end of main section, start of footer -->
+        <footer>
+            <!-- list of non product related pages -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="terms.html">Terms & Conditions</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+            </ul>
+            <p id="copyright">
+                Copyright &copy 2025 by Parker's Gamecube Store. All Rights Reserved.
+            </p>
+            <div class="hamburgermenu"> <!-- section for the searchbar and hamburgermenu at the bottom of the phone -->
+                <div id="searchbar"> <!-- call to action search bar at bottom of screen -->
+                    <input id="bar" type="text" placeholder="Search.."><!-- bottom of screen search bar -->
+                    <button id="button" type="submit">Submit</button>
+                </div>
+                <!-- /***************************************************************************************
+                    *    Title: Mobile Navigation Bar
+                    *    Author: W3schools
+                    *    Date: n.d.
+                    *    Code version: html 5
+                    *    Availability: https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+                    *
+                    ***************************************************************************************/ -->
+                <div id="burgerlinks">
+                    <a href="index.html">Home</a>
+                    <a href="products.html">Products</a>
+                    <a href="cart.html">Cart</a>
+                    <a href="about-us.html">About Us</a>
+                    <a href="contact-us.html">Contact Us</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()"><!-- javascript:void(0); cause the href to open the icon link but not refresh the page -->
+                    <i class="fa fa-bars"></i> <!-- hamburgermenu icon from font awesome -->
+                </a>
+            </div>
+        </footer>
+        <script src="assets/main.js"></script>
+    </body>
+</html>
